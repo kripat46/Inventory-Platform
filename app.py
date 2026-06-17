@@ -1,0 +1,1 @@
+print("Inventory Platform Environment: Active")
