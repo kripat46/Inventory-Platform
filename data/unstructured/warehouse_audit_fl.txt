@@ -1,0 +1,2 @@
+FACILITY AUDIT REPORT - FLORIDA REGION
+An internal physical inventory reconciliation audit conducted at the Miami fulfillment hub on May 18 identified a major software mismatch. Over 1,200 units of SKU-882 were misallocated to a legacy bin location, creating an artificial 'Out of Stock' condition on the live system.

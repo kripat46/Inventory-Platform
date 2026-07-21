@@ -1,0 +1,4 @@
+SUPPLY CHAIN INCIDENT TICKET #2941
+Timestamp: 2026-04-12
+Impacted Scope: SKU-111 through SKU-116.
+Description: Routine regional maintenance overhead operations delayed order picking efficiencies at fulfillment node #4 by approximately 36 hours. Minor downstream stock variations expected.

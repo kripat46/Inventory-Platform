@@ -1,0 +1,6 @@
+lambda_deploy/
+.env
+.streamlit/
+__pycache__/
+*.csv
+data/raw/
