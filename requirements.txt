@@ -3,4 +3,4 @@ pandas
 altair
 psycopg2-binary
 openai
-pinecone-client
+pinecone
