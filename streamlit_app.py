@@ -582,7 +582,10 @@ with st.sidebar:
                 "CRITICAL SECURITY BOUNDARY RULE (CORE DOMAIN GUARDRAIL):\n"
                 "You are strictly FORBIDDEN from answering any queries regarding general life advice, personal finance, "
                 "house purchasing, career guidance, hobbies, or general knowledge questions. You do not possess general human memory.\n"
-                "If the user's intent is not directly and explicitly related to retail inventory anomalies, storefront stockouts, "
+                "CONVERSATIONAL SAFE-HARBOR EXCEPTION: Standard professional platform greetings, connection checks, or casual courtesies "
+                "(such as 'Hello', 'Hi', 'Hey', or system tests) are explicitly ALLOWED. For these inputs, you must simply respond with a "
+                "brief, professional greeting text block and you are STRICTLY FORBIDDEN from calling the 'stage_mitigation_parameters' tool function.\n"
+                "If the user's intent is not a greeting and is not directly and explicitly related to retail inventory anomalies, storefront stockouts, "
                 "supply chain logistics, fleet aviation, or distribution pricing corridors, you must immediately halt execution and respond "
                 "with this exact message structure: '❌ [OUT OF SCOPE] My core domain is strictly limited to supply chain logistics management. Please submit an asset inventory request.'\n\n"
                 "CRITICAL INVENTORY NAVIGATION RULES:\n"
@@ -596,6 +599,7 @@ with st.sidebar:
                 "7. AUTOMATED NOTIFICATION MAIL (CASE 7): If a user mentions notifications or background emails, compile a transparent delivery receipt validation text block detailing that a secure operational payload has been transmitted to 'krina@inventoryplatform.com'.\n"
                 "Keep all conversational responses highly professional, data-centric, and structured cleanly using clean Markdown formatting blocks."
             )
+
             
             formatted_messages = [{"role": "system", "content": system_prompt}]
             for m in st.session_state.messages[:-1]:
