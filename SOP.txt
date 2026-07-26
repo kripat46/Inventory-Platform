@@ -1,0 +1,23 @@
+Standard Operating Procedure (SOP)
+Document ID: SOP-SCM-001
+Version: 3.0
+Effective Date: July 23, 2026
+Title: Operational Guidelines for the Enterprise Supply Chain Control Tower Platform
+1. System Access & Interface Verification
+Step 1.1: Open the verified corporate Streamlit Cloud web application URL.
+2. Submitting Queries & Unstructured Data Processing
+Step 2.1: Locate the AI Strategic Advisor chat box in the left sidebar console.
+Step 2.2: Input your standard prompt or copy-paste any unstructured text file assets (such as incident reports, email complaints, or market calendar disruptions).
+Stage an optimized replenishment for DEPT-3.
+Analyze our latest electronics supplier disruption logs and see how it impacts DEPT-3 stockout liabilities.
+Review our historical incident report batch logs for any unrecorded supply chain anomalies matching our current deficits.
+Read our market calendar data and competitor price war files to assess our retail shelf risk profiles.
+3. Human-in-the-Loop Fulfillment Authorization
+Step 3.1: Review the allocation proposals staged under the top Replenishment Canopy panel block.
+Step 3.2: Evaluate network constraints based on current safety reserves:Option A (Multi-Hub Network Split): Click to authorize if the system approves warehouse stock margins. Option B (Emergency Manufacturing Plant Run): Click to execute an emergency production line run if warehouse margins fall below the mandatory 5,000-unit floor cushion.
+4. Storefront Dock Ingestion Control
+Step 4.1: Upon the arrival of logistical transport vehicles at the physical storefront bay, locate the respective vehicle row inside your bottom Real-Time Simulation Shipment Ledger.
+Step 4.2: Click Log Delivery Arrival button for that shipment.
+Step 4.3: System Impact Pass: The engine locks the button to prevent duplicate entries, writes a new auditable transaction row to the datastore, runs a greedy search routine to clear active stockout rows, scales your green bar charts, drops penalty card metrics.
+
+Demo Video - https://drive.google.com/file/d/1_5B6ehoxiFAN0Ye9HmS8xwnT-If1OKfF/view?usp=drive_link
